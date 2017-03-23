@@ -5,7 +5,7 @@ sudo apt-get -y install apache2
 # Install MySQL
 sudo apt-get -y install mysql-server mysql-client
 # Install PHP
-sudo apt-get -y install php5 libapache2-mod-php5 php5-mcrypt php5-mysql
+sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql
 # Test PHP
 sudo echo "<?php\nphpinfo();\n?>" > /var/www/html/info.php;
 # Install phpmyadmin
